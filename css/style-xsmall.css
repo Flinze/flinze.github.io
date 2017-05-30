@@ -1,5 +1,5 @@
 /*
-	Ion by TEMPLATED
+	Transit by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -12,6 +12,11 @@
 
 	body, input, select, textarea {
 		font-size: 12pt;
+	}
+
+	header.major h2 {
+		font-size: 2em;
+		margin-bottom: 1em;
 	}
 
 /* List */
@@ -60,5 +65,5 @@
 /* Banner */
 
 	#banner {
-		padding: 5em 2em 4em 2em;
+		padding: 8em 2em 8em;
 	}
