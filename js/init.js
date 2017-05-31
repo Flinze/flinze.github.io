@@ -83,6 +83,18 @@
 				$body.removeClass('is-loading');
 			});
 
+			/* Smooth scrolling for anchor animation */
+			var $root = $('html, body');
+			$('a').click(function() {
+			    var href = $.attr(this, 'href');
+			    $root.animate({
+			        scrollTop: $(three).offset().top
+			    }, 500, function () {
+			        window.location.hash = href;
+			    });
+			    return false;
+			});
+
 	});
 
 })(jQuery);
