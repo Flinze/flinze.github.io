@@ -926,7 +926,7 @@
 			opacity: 0.25;
 		}
 
-/* Header */
+/* Page Header */
 
 	body.landing #header {
 		background-color: transparent;
@@ -1028,7 +1028,7 @@
 				right: 0;
 			}
 
-/* Banner */
+/* Page Banner */
 
 	#banner {
 		background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg);
@@ -1056,7 +1056,7 @@
 			margin-bottom: 1.75em;
 		}
 
-/* Wrapper */
+/* Page Wrapper */
 
 	.wrapper {
 		padding: 6em 0em 4em;
@@ -1132,7 +1132,7 @@
 				color: #444;
 			}
 
-/* Footer */
+/* Page Footer */
 
 	#footer {
 		background: #383b43;
