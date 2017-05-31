@@ -1176,7 +1176,7 @@
 			}
 
 		#footer .icons {
-			text-align: right;
+			text-align: center;
 		}
 
 		#footer a.icon {
@@ -1217,3 +1217,9 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+/* Contact */
+
+	.contact-centre {
+		display: inline-block;
+	}
