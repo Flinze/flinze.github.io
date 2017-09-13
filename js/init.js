@@ -84,6 +84,7 @@
 			});
 
 			/* Smooth scrolling for anchor animation */
+			/*
 			var $root = $('html, body');
 			$('a').click(function() {
 			    var href = $.attr(this, 'href');
@@ -94,7 +95,7 @@
 			    });
 			    return false;
 			});
-
+			*/
 	});
 
 })(jQuery);
