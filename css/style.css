@@ -936,7 +936,7 @@
 	}
 
 		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
+			color: #000000;
 		}
 
 	#header {
@@ -1031,20 +1031,21 @@
 /* Page Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg);
+		/* background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg); */
 		background-position: center center;
 		background-size: cover;
-		color: #ffffff;
+		color: #000000;
 		padding: 14em 0em 14em;
 		text-align: center;
 	}
 
 		#banner :last-child {
 			margin-bottom: 0;
+			color: #000000
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #000000;
 			font-size: 4em;
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
