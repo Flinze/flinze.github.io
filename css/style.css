@@ -1224,3 +1224,9 @@
 	.contact-centre {
 		display: inline-block;
 	}
+
+/* Custom */
+	.responsive-image {
+		width: 100%;
+		height: auto;
+	}
