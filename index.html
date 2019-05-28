@@ -10,12 +10,13 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-		<script src="js/functions.js"></script>
 
 		<!-- Style sheets -->
 		<link rel="stylesheet" href="css/skel.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-xlarge.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		
 	</head>
 	<body class="landing">
@@ -96,7 +97,7 @@
 						<h2>Projects</h2>
 						<p>My past and present projects are displayed here.</p>
 					</header>
-					<div class="row 150%">
+					<!-- <div class="row 150%">
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<a target="_blank" href="http://students.bcitdev.com/A00959121/take2/index.php">
@@ -127,7 +128,48 @@
 							</section>
 						</div>
 						
+					</div> 
+				</div> -->
+
+				<div class="w3-content" style="max-width:800px">
+					<div class="mySlides" style="width:100%"> 							
+						<section class="box">
+							<a target="_blank" href="http://students.bcitdev.com/A00959121/take2/index.php">
+								<img src="images/project_logos/take2_logo.png" alt="take2" class="icon big rounded">
+							</a>
+							<h3>Take 2</h3>
+							<p>A web application partnered with Metro Vancouver to reduce food waste by taking two left over ingredients, and suggesting easy to make recipes.</p>
+						</section>
 					</div>
+					<div class="mySlides" style="width:100%">
+						<section class="box">
+							<a target="_blank" href="http://students.bcitdev.com/A00959121/vanpeaks/index.php">
+								<img src="images/project_logos/vanpeaks.png" alt="van_peaks" class="icon big rounded">
+							</a>
+							<h3>VanPeaks</h3>
+							<p>Handpicked hiking trails for hikers to find breathtaking views. </p>
+						</section>
+					</div>
+					<div class="mySlides" style="width:100%">
+						<section class="box">
+							<a target="_blank" href="https://github.com/acl-services/slack-salesforce-helpdesk">
+								<img src="images/project_logos/slackbot_icon.png" alt="slackbot" class="slack-logo">
+							</a>
+							<h3>ACL Salesforce Slackbot Integration</h3>
+							<p>A serverless Python app hosted in AWS Lambda for users to open a Salesforce helpdesk ticket and talk with the technician directly from Slack. Partnered with ACL work on this project in a team of four students following the Agile methodology. </p>
+						</section>
+					</div>
+					</div>
+				</div>
+				
+				<div class="w3-center">
+					<div class="w3-section">
+						<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+						<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+					</div>
+					<button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+					<button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+					<button class="w3-button demo" onclick="currentDiv(3)">3</button> 
 				</div>
 			</section>
 
@@ -208,5 +250,7 @@
 				</div>
 			</footer>
 
+			<!-- Scripts loaded last as divs need to be loaded first -->
+			<script src="js/functions.js"></script>
 	</body>
 </html>
