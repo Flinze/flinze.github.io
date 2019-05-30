@@ -1239,6 +1239,16 @@
 		height: 3.25em;
 		text-align: center;
 		font-size: 2.5em;
-    	margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
+		box-shadow: 0 0 black;
+	}
+
+	.fixate-logo {
+		color: #ffffff;
+		display: inline-block;
+		height: 3.25em;
+		text-align: center;
+		font-size: 2.5em;
+  	margin-bottom: 0.5em;
 		box-shadow: 0 0 black;
 	}
